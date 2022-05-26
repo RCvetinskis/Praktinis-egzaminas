@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      text-decoration: none;
+      list-style: none;
+      user-select: none;
+  }
+  nav{
+    background: linear-gradient(to left,#9198e5, #a2d2ff);
+  
+   padding: 30px;
+  }
+  nav a{
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+   transition: 0.3s;
+   
+  }
+  nav a:hover{
+    border: 1px solid white;
+    border-radius: 8px;
+    color: blue;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  
+  }
